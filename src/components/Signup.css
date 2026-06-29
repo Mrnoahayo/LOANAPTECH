@@ -1,0 +1,126 @@
+
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1aff 40%, #1a1aff 100%);
+  padding: 24px;
+ 
+}
+
+
+.signup-card {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(100, 80, 220, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 40px 36px 32px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 40px rgba(0, 0, 60, 0.35);
+}
+
+
+.signup-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 28px;
+  letter-spacing: 0.01em;
+  padding: 20px;
+}
+
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group--password {
+  display: flex;
+  align-items: center;
+}
+.signup-input {
+  width: 100%;
+  padding: 14px 16px;
+  background: blue;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.signup-input::placeholder {
+  color: rgba(220, 210, 255, 0.7);
+}
+
+.signup-input:focus {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(130, 110, 240, 0.45);
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  line-height: 1;
+}
+
+
+.signup-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 6px;
+  background: #2a2aee;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.signup-btn:hover {
+  background: #4040ff;
+  transform: translateY(-1px);
+}
+
+.signup-btn:active {
+  transform: translateY(0);
+}
+
+/* ── Login link ── */
+.login-link {
+  text-align: center;
+  color: rgba(200, 190, 255, 0.75);
+  font-size: 0.85rem;
+  margin: 4px 0 0;
+}
+
+.login-link a {
+  color: rgba(220, 210, 255, 0.95);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.login-link a:hover {
+  color: #ffffff;
+}

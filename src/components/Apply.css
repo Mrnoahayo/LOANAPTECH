@@ -1,0 +1,101 @@
+
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.contact-card {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  margin: 0 0 8px;
+}
+
+form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 20px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #001dc2;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 220px;
+  align-items: flex-start;
+}
+
+.form-row .form-group label {
+  text-align: left;
+}
+
+.form-row .form-group input,
+.form-row .form-group select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #0026ff;
+  color: white;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.submit-btn:hover {
+  background-color: darkblue;
+}
