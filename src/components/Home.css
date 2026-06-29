@@ -1,0 +1,97 @@
+.home-container {
+  background: aliceblue;
+
+}
+.hero-section {
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color:black;
+  margin: 0 auto 40px;
+}
+
+.hero-cta-btn {
+  display: inline-block;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);
+}
+
+.hero-cta-btn:hover {
+  background: blue;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(79, 70, 229, 0.4);
+}
+
+
+.features-flex {
+  display: flex;
+  gap: 30px;
+  width: 1000px;
+  padding: 40px;
+  height: 300px;
+}
+
+.feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  color: blue;
+  margin-bottom: 30px;
+}
+
+.feature-card p {
+  color: black;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+
+.home-links {
+  margin-top: 80px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.home-link {
+  color: blue;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.home-link:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}

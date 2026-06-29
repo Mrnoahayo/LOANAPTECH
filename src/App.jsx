@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Apply from "./components/Apply";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>} />
             <Route path="/Apply" element={<Apply/>} />
+            <Route path="/Home" element={<Home/>} />
         </Routes>
     </Router>  
   );

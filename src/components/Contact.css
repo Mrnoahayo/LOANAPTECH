@@ -5,12 +5,12 @@
 }
 
 .contact-container {
-  width: 700px;
+  width: min(900px, 90%);
   margin: 0 auto;
-  background:white;
-  padding: 50px 40px;
+  background: white;
+  padding: 60px 50px;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
 

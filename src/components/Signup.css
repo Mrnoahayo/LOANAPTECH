@@ -1,22 +1,19 @@
 
 .signup-page {
- 
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #1a1aff 40%, #1a1aff 100%);
-  padding: 24px;
+  padding: 20px;
  
 }
-
-
 .signup-card {
   width: 100%;
   max-width: 480px;
   background: rgba(100, 80, 220, 0.45);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
-  padding: 40px 36px 32px;
+  padding: 70px 36px 32px;
   backdrop-filter: blur(12px);
   box-shadow: 0 8px 40px rgba(0, 0, 60, 0.35);
 }
