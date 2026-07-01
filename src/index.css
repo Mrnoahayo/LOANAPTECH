@@ -48,15 +48,17 @@
 
 body {
   margin: 0;
-  min-width: 1200px;
-  overflow-x: auto;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #fff;
 }
 
 #root {
-  width: 1126px;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  border: none;
   min-height: 100svh;
   display: flex;
   flex-direction: column;

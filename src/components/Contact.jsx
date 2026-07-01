@@ -36,17 +36,17 @@ const Contact = () => {
     <div className="contact-page">
       <div className="contact-container">
         <h1>Contact Us</h1>
-        <p>We're here to help! Reach out anytime.</p>
+        <p>We’d love to hear from you. Fill out the form below.</p>
 
         <div className="contact-info">
           <div className="info-item">
-            <strong>Email:</strong> support@loanaptech.com
+            <strong>Email:</strong> support@example.com
           </div>
           <div className="info-item">
-            <strong>Phone:</strong> + (555) 123-4567
+            <strong>Phone:</strong> +123 986 53634
           </div>
           <div className="info-item">
-            <strong>Hours:</strong> Mon-Fri, 9am - 5pm EST
+            <strong>Location:</strong> Lagos 
           </div>
         </div>
 
@@ -76,7 +76,9 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             required
-          ></textarea> <button type="submit">Send Message</button>
+          ></textarea>
+
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </div>

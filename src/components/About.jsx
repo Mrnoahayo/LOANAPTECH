@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className='feature'>
             <h3>No Hidden Fees</h3>
-            <p>100% free to apply-no hidden charges</p>
+            <p>100% free to apply - no hidden charges</p>
           </div>
           <div className='feature'>
             <h3>Secure & Private</h3>
