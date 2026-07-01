@@ -6,6 +6,10 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Apply from "./components/Apply";
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+
+
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,9 +22,11 @@ function App() {
           <Route path="/signup" element={<Signup/>} />
             <Route path="/Apply" element={<Apply/>} />
             <Route path="/Home" element={<Home/>} />
+            
+    
         </Routes>
+         <Footer />
     </Router>  
   );
 }
-
 export default App;

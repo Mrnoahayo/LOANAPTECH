@@ -25,33 +25,42 @@ function Home() {
 
           </div>
           <h3>Lightning Fast</h3>
-          <p>Lightning Fast Approval<br />Get decision in under 10 minutes</p>
+          <h4>Lightning Fast Approval</h4>
+          <p>Get decision in under 10 minutes</p>
+          
+          
         </div>
 
         <div className="feature-card">
           <div className="">
           </div>
           <h3>No Paperwork</h3>
-          <p>No Paperwork Required<br />100% digital & hassle-free process</p>
+         <h4>No Paperwork Required</h4>
+          <p>100% digital & hassle-free process</p>
+        
         </div>
-
+        
         <div className="feature-card">
           <div className="">
+           
           </div>
           <h3>Best Rates</h3>
-          <p>Lowest Interest Rates<br/>Starting from just 8.99% p.a.</p>
+          <h4>Lowest Interest Rates</h4>
+          <p>Starting from just 8.99% p.a.</p>
+         
+          
         </div>
       </div>
 
       <div className="home-links">
         <p>
-          Already applied?{" "}
+          Already Applied?{" "}
           <Link to="/loan-status" className="home-link">
             Check Loan Status
           </Link>{" "}
           {" "}
           <Link to="/dashboard" className="home-link">
-            Go to Dashboard
+        Go to Dashboard
           </Link>
         </p>
       </div>
